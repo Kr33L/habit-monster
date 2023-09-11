@@ -1,7 +1,9 @@
 # Habit Monster
 
-Habit Monster is a web application that helps you track and manage your daily habits. Stay motivated and build positive habits with Habit Monster!
+Habit Monster is a web application that helps you track and manage your daily habits. Stay motivated and build positive habits with Habit Monster! <br>
 PSA: Not all stated features are available as this is just an MVP, but it can be expanded.
+
+[Figma Prototype](https://www.figma.com/proto/UGvC8c6nkmTku455J7y6wd/Tech-for-Better---Habit-Monster?type=design&node-id=19-1926&t=pZhdZIMFJFy1GPB3-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2&mode=design)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,7 +14,6 @@ PSA: Not all stated features are available as this is just an MVP, but it can be
 ## Installation
 
 1. Clone the repository:
-
    ```
    git clone https://github.com/ko-karol/habit-monster.git
    ```
