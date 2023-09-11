@@ -8,7 +8,6 @@ PSA: Not all stated features are available as this is just an MVP, but it can be
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
