@@ -20,8 +20,8 @@
 	--sm-width: 85%;
 	--sm-max-width: 16rem;
 	--top-nav-height: 3.75rem;
-	--mobile-bg-src: url('/backgrounds/Background-Mobile.png');
-	--desktop-bg-src: url('/backgrounds/Background-Desktop.png');
+	--mobile-bg-src: url('/backgrounds/background-mobile.png');
+	--desktop-bg-src: url('/backgrounds/background-desktop.png');
 	--desktop-landing-bg-src: url('/backgrounds/landing-page.jpg');
 }
 
@@ -46,7 +46,7 @@ ul {
 	list-style: none;
 }
 .bg {
-	background-image: var(--mobile-bg-src);
+	background-image: var(--desktop-bg-src);
 	width: 100vw;
 	min-height: 100vh;
 	object-fit: fill;
