@@ -1,6 +1,6 @@
-import { readFileSync } from 'node:fs'
-import { join } from 'node:path'
-import db from './db.js'
+const { readFileSync } = require('fs')
+const { join } = require('path')
+const db = require('./db')
 
 const seedPath = join('src', 'database', 'seed.sql')
 const seed = readFileSync(seedPath, 'utf-8')

@@ -2,19 +2,12 @@
 	"name": "habit-app",
 	"version": "0.1.0",
 	"private": true,
-	"type": "module",
-	"volta": {
-		"node": "18.10.0"
-	},
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"seedR": "node src/database/seed.js",
-		"seed": "DB_FILE=db.sqlite node src/database/seed.js",
-		"test": "start-server-and-test dev 3000 cypress",
-		"cypress": "cypress open"
+		"seed": "node src/database/seed.js"
 	},
 	"dependencies": {
 		"@next/font": "13.2.4",
@@ -22,14 +15,13 @@
 		"date-fns": "^2.29.3",
 		"eslint": "8.36.0",
 		"eslint-config-next": "13.2.4",
-		"next": "13.2.4",
+		"next": "latest",
 		"react": "18.2.0",
 		"react-circular-progressbar": "^2.1.0",
 		"react-dom": "18.2.0"
 	},
 	"devDependencies": {
 		"@iconify/react": "^4.1.0",
-		"cypress": "^12.9.0",
 		"prettier": "^2.8.6",
 		"start-server-and-test": "^2.0.0"
 	}
